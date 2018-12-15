@@ -1,0 +1,63 @@
+.container-fluid {
+}
+.container-fluid {
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.text h1{
+	padding-top: 30px;
+	text-decoration-color: burlywood;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+.footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    margin-bottom: 20px;
+    height: 20px;
+    margin: auto;
+    width: 400px;
+}
+
+
+.bkgi {
+  /* The image used */
+  background-image: url("nillespanna.png");
+
+  /* Full height */
+	width: auto;
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.image {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    height: 400px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
