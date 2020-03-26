@@ -7,6 +7,17 @@ body, html {
   margin: 0;
 }
 
+div.example {
+  background-color: yellow;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+
 .text h1{
 	padding-top: 30px;
 	text-decoration-color: burlywood;
